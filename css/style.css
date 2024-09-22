@@ -394,3 +394,54 @@ footer .social-icons .btn-outline-warning i {
 .slick-dots li.slick-active button span {
     opacity: 1;
 }
+
+.product-category{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;   
+    opacity: 50%;
+    margin-bottom: 5px;
+}
+
+.product-title{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.product-card {
+    padding-top: 36px;
+}
+
+.product-card .old-price{
+    font-size: 12px;
+}
+
+.product-card-link{
+    text-decoration: none;
+}
+
+.product-card:hover{
+    border-color: blue;
+}
+
+.add-to-cart-btn{
+    padding: 0px;
+    margin: 0px;
+}
+
+.price {
+    font-size: 12px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: #1176AE;
+}
+
+.price .current-amount {
+    font-size: 18px;
+}
+
+.add-to-cart-btn {
+    background-color: transparent;
+    border: none;
+}
