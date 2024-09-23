@@ -3,6 +3,7 @@
 }
 
 body {
+    background-color: #E8F5FD;
     overflow-x: hidden;
 }
 
@@ -25,12 +26,25 @@ body {
 
 .search-bar {
     width: 100%;
-    max-width: 400px;
+    max-width: 360px;
+}
+
+header .social-icons a {
+    border: 1px solid #f75c03 !important;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contact-info{
+    font-size: 26px;
 }
 
 .social-icons i {
-    margin-right: 10px;
     color: #f75c03;
+}
+
+.social-icons a {
+    text-align: center;
 }
 
 .contact-info,
@@ -46,8 +60,8 @@ body {
 }
 
 .flag {
-    width: 24px;
-    height: 16px;
+    width: 100%;
+    max-width: 100px;
     margin-left: 5px;
 }
 
@@ -229,7 +243,7 @@ footer .social-icons {
     flex-wrap: wrap;
 }
 
-footer .social-icons .btn-outline-warning {
+.social-icons .btn-outline-warning {
     color: white;
     border-color: white;
     padding: 0px;
@@ -444,4 +458,65 @@ footer .social-icons .btn-outline-warning i {
 .add-to-cart-btn {
     background-color: transparent;
     border: none;
+}
+
+.more-product-btn{
+    height: 56px;
+    width: 216px;
+    border-radius: 5px;
+    background-color: #F16126;
+    color: white;
+    text-transform: uppercase;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+}
+
+.products-mobile{
+    padding-bottom: 60px;
+}
+
+.ma-title{
+    background-image: url(../images/ma-title-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0px;
+}
+
+.section-title{
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.accessories-mobile{
+    padding: 60px 0px;
+}
+
+.electronics-title{
+    background-image: url(../images/electronics-bg.png);
+    padding-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.electronics{
+    padding: 60px 0px;
+}
+
+header .nav-link{
+    text-transform: uppercase;
+    font-size:  17px !important;
+    font-weight: 400 !important;
+    padding-top:    0px !important;
+    padding-bottom: 0px !important;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        --bs-navbar-nav-link-padding-x : 22px;
+        padding-right: var(--bs-navbar-nav-link-padding-x);
+        padding-left: var(--bs-navbar-nav-link-padding-x);
+    }
 }
