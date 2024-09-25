@@ -9,7 +9,7 @@ $(document).ready(function () {
     });
 
     let productCard = (image) => `
-    <div class="col-md-2 mb-4">
+    <div class="col-xl-2 col-lg-3 col-md-4 col-6 mb-4">
         <a class="product-card-link" href="#">
             <div class="shadow-sm card product-card text-center">
                 <button class="btn position-absolute"
